@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<HTML>
+    <HEAD>
+        <title>Kiddo Website</title>
+        <link rel="stylesheet" href="Estilos.css">
+        <script src="https://kit.fontawesome.com/a48e4de325.js" crossorigin="anonymous"></script>    </HEAD>
+    <body>
+        <nav>
+        <img class="logo" src="kiddo_logo.png" alt="Logo de Kiddo" style="width:120px;height:120px;">
+        <div class="topnav" id="myTopnav">
+            <a href="#Menú"> Menú</a>
+            <a href="#Merchandise">Merchandise</a>
+            <a href="#Ubicación">Ubicación</a>
+            <a href="#Eventos">Eventos</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>  
+        </nav>
+
+        <section>
+            <img src="CHEESEBURG.png" alt="Hamburguesa" style="width:100%">
+        </section>
+        
+        <section class="imagenes">
+                <img src="merchandise.jpeg" alt="merchandise" width="25%">
+                <img src="menú.jpeg" alt="menú" width="25%">
+                <img src="Tickets.jpeg" alt="Tickets" width="25%">
+        </section>
+
+        <section class="botones">
+            <div class="compra"> 
+                <h2> Comprá nuestra merch </h2> 
+            </div>
+            <div class="conoce"> 
+                <h2> Conocé nuestro menú </h2> 
+            </div>
+            <div class=" reserva"> 
+                <h2> Reservá para eventos </h2> 
+            </div>
+        </section>
+
+        <div class="recetas">
+            <h1> Mira cómo hacemos nuestras hamburguesas</h1>
+        </div>
+
+        <article>
+            <div class="videos">
+                <video class="burga" src="Park_doble.MP4" autoplay muted>
+                    Tu navegador no admite el elemento <code> video</code>
+                </video>   
+            </div>
+
+            <div class="texto">
+                <h4> Park doble </h4>
+                <p> Todo comenzó con la Park. Una hamburguesa clásica, balanceada y con un aderezo que la distingue por sobre cualquier hamburguesa con lechuga, tomate, cebolla y queso.</p>
+                <p> Por eso es Nuestra Favorita </p>
+            </div>    
+        </article>
+
+        <article>
+            <div class="videos">
+                <video class="burga" src="Melvin_doble.MP4" autoplay muted>
+                    Tu navegador no admite el elemento <code> video</code>
+                </video>   
+            </div>
+            
+            <div class="texto">
+                <h4> Melvin doble </h4>
+                <p> Una combinación muy elegida por el paladar hamburguesero argentino: carne, queso, panceta ahumada y cebolla crispy.
+                    Nosotros la definimos con nuestro aderezo Kiddo, que hacemos todos los días en el local, para que la Melvin sea una Melvin.
+                    </p>
+                <p> Simple o doble. Como más te guste. </p>
+            </div>    
+        </article>
+        
+        <article>
+            <div class="videos">
+                <video class="burga" src="Cheeseburguer.MP4" autoplay muted>
+                    Tu navegador no admite el elemento <code> video</code>
+                </video>   
+            </div>
+            
+            <div class="texto">
+                <h4> Cheeseburguer </h4>
+                <p> Pensada para enamorarte en el primer bocado. También puede salir sin aderezos ni cebolla y la verdad que es preciosa.
+                    Carne queso y pan en su máximo esplendor. Todos los ingredientes pegaditos y cremositos sin nada que distraiga.
+                    </p>
+                <p> Sencilla, cremosita e irresistible. </p>
+            </div>    
+        </article>
+
+        <section>
+           
+        </section>
+        <footer>
+            <div class="iconos">
+                <i class="fa-solid fa-envelope" style="font-size: 30px ;color: #e97e2d;"> </i>
+                <i class="fa-solid fa-location-dot" style="font-size: 30px ;color: #e97e2d;"> </i>
+                <i class="fa-brands fa-instagram" style="font-size: 30px ;color: #e97e2d;"> </i>
+                <i class="fa-brands fa-spotify" style="font-size: 30px ;color: #e97e2d;"> </i>
+            </div>
+        </footer>
+
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";}
+                else {
+                x.className = "topnav";
+              }
+            }
+            </script>
+
+    </body>
+</HTML>

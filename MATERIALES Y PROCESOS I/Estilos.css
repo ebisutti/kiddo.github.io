@@ -1,0 +1,455 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Bungee+Shade&family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;1,900&family=Oswald:wght@300;600;700&display=swap');
+
+ body{
+  background-color: #EBE7D6;
+}
+
+a {
+  text-decoration:none; 
+  color: white;
+  }
+
+
+h1{
+    font-family:'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 66px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #EBE7D6;
+}
+
+h4{
+ font-family: 'Montserrat', sans-serif;
+ text-transform: uppercase;
+  font-weight: 400;
+  font-size: 70px;
+  color: #E97E2D;
+}
+
+nav{ background-color: #1F4982;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: auto;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+.logo{
+  display: flex;
+ justify-content: flex-start; 
+}
+
+
+ p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.5;
+ }
+
+.imagenes{ 
+margin-top: 150px;
+display: flex;
+justify-content: space-around;
+flex-flow: row;
+margin-bottom: 20px;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: white;
+  font-size: 18px;
+}
+
+.compra{
+  border-style: outset;
+  border-color: #E97E2D;
+  background-color: #1F4982;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.conoce{
+  border-style: outset;
+  border-color: #E97E2D;
+  background-color: #1F4982;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.reserva{
+  border-style: outset;
+  border-color: #E97E2D;
+  background-color: #1F4982;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.botones{ 
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row;
+}
+
+.recetas{
+  margin-top: 150px;
+  background-color: #E97E2D;
+  padding-top: 1.5px;
+  padding-bottom: 1.5px;
+}
+
+article{
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 7%;
+  display: flex;
+}
+
+.burga{
+  width: 100%;
+  border: 5px solid #E97E2D;
+}
+
+.videos{
+  flex: 25%;
+  padding-right: 2%;
+  padding-left: 2%;
+  justify-content: flex-end;
+  flex-flow: row;
+}
+
+.texto{ 
+  flex: 75%;
+  padding-left: 5px;
+  padding-right: 2%;
+  width: 50%;
+  text-align: left;
+ }
+
+
+footer{
+  background-color: #1F4982;
+  position: static;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  align-items: center;
+  margin-top: 50px;
+  
+}
+.iconos{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+ .mail{
+  display: inline-block;
+  align-items: center;
+  width: 33%;
+ }
+
+
+ .topnav {
+  overflow: hidden;
+  background-color: #1F4982;
+  height: auto;
+}
+
+.topnav a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    justify-content: space-around;
+    float: right;
+    display: block;
+    text-align: right;
+    padding: 14px 16px;
+    align-items: center;
+}
+
+.topnav a:hover {
+  color: #E97E2D;
+}
+
+.topnav a.active {
+  color: #E97E2D;
+}
+
+.topnav .icon {
+  display: none;
+}
+ 
+/* MENU PAGE */
+
+.article2{
+display: flex;
+justify-content: space-around;
+justify-content: space-between;
+flex-flow: row;
+overflow: auto ;
+}
+
+h3{
+  font-family: 'Bungee Shade';
+  color:#E97E2D;
+  font-size: 80px;
+  text-transform: uppercase;
+  text-align: center;
+ }
+
+.box{
+  border-style: outset;
+  border-color: #E97E2D;
+  border-radius: 30px;
+  background-color: #1F4982;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  flex: 33.33%;
+}
+
+.Tipo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.simple{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.precio{
+  display: flex;
+  border: 2px #E97E2D;
+  border-style: solid;
+  border-radius: 50px;
+  background-color: #EBE7D6;
+  width: 80px;
+  justify-content: center;
+}
+
+.doble{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.contenedor{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin-bottom: 20px;
+
+}
+
+.guarni{
+  justify-content: space-around;
+  border-style: solid;
+  border-color: #1F4982;
+  border-radius: 30px;
+  background-color: #EBE7D6;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.precio2{
+  border-style: solid;
+  border-color: #1F4982;
+  border-radius: 30px;
+  background-color: #1F4982;
+  width: 80px;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+
+.bebida{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 28%;
+}
+
+.precio3{
+  border: 2px #EBE7D6;
+  border-style: solid;
+  border-radius: 50px;
+  background-color:#E97E2D ;
+  width: 80px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* MERCHANDISE PAGE */
+
+.subtitulo{
+  margin-left: 20px;
+}
+
+.camiseta{
+  display: inline-block;
+  justify-content: space-around;
+  width: 25%;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.accesorios{
+  display: inline-block;
+  justify-content: space-around;
+  width: 20%;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+  padding-bottom: 40px;
+} 
+
+.article3{
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-between;
+  flex-flow: row;
+  overflow: auto ;
+}
+
+/* UBICACIÓN PAGE */
+
+.mapouter{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+.gmap_canvas {
+  display: flex;
+  overflow:hidden;
+  background:none;
+  height:100%;
+  width:100%;
+  justify-content: center;
+  padding-top: 15px;
+  
+}
+
+/* EVENTOS PAGE */
+
+.fotos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1.3%;
+}
+
+
+.eventos{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.box3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid;
+  border-color: #E97E2D;
+  border-radius: 40px;
+  background-color: #1F4982;
+  width: 70%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.fechas{
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 600px) {
+  .topnav a {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px){
+.topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    }
+    .camiseta, .accesorios{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    }
+
+    .article3{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .h3{
+      font-family: 'Bungee Shade';
+      color:#E97E2D;
+      font-size: 60px;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+  }
+  
+ 
+    .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+
+@media screen and (max-width: 1120px){
+  .article2{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+} 
