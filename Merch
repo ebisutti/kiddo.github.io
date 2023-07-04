@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<HTML>
+    <HEAD>
+        <title>Kiddo Website</title>
+        <link rel="stylesheet" href="Estilos.css">
+        <script src="https://kit.fontawesome.com/a48e4de325.js" crossorigin="anonymous"></script>    
+    </HEAD>
+    <body>
+        <nav>
+            <a href="./Index.html">
+                <img class="logo" src="./IMG/kiddo_logo.png" alt="Logo de Kiddo" style="width:120px;height:120px;">
+            </a>    
+            <div class="topnav" id="myTopnav">
+                <a href="./Eventos.html">Eventos</a>
+                <a href="./Ubicación.html">Ubicación</a>
+                <a href="./Merch.html">Merchandise</a>
+                <a href="./Menú.html"> Menú</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+            </div>  
+        </nav>
+
+        <div class="titulo">
+            <h3 style="color: #1F4982; "> Merchandise </h3>
+        </div>
+        <div class="subtitulo">
+            <h1 style="color: #e97e2d; font-weight: 400; text-align: left;"> Remeras </h1>
+        </div>
+        <article class="article3">
+            <div class="camiseta">
+                <img src="./IMG/reme1.PNG" alt="reme1" width="100%">
+                <h2 style="color: black; font-weight: 400; text-transform: capitalize;"> Remera Hamburguesa</h2>
+            </div>
+            <div class="camiseta">
+                <img src="./IMG/reme2.PNG" alt="reme2" width="100%">
+                <h2 style="color: black; font-weight: 400; text-transform: capitalize;"> Remera Bs. As. </h2>
+            </div>
+            <div class="camiseta">
+                <img src="./IMG/reme3.PNG" alt="reme3" width="100%">
+                <h2 style="color: black; font-weight: 400; text-transform: capitalize;"> Remera Kiddo </h2>
+            </div>
+            <div class="camiseta">
+                <img src="./IMG/reme4.PNG" alt="reme4" width="100%">
+                <h2 style="color: black; font-weight: 400; text-transform: capitalize;"> Remera Skater </h2>
+            </div>
+        </article>
+
+        <div class="subtitulo"> 
+            <h1 style="color: #e97e2d; font-size: 50px; font-weight: 400; text-align: left;"> accesorios </h1>
+         </div>
+
+        <article class="article2">
+            <div class="accesorios">
+                <img src="./IMG/gorra.PNG" alt="gorra" width="100%">
+                <h2 style="color: black; font-weight: 400; text-transform: capitalize;"> Gorras </h2>
+            </div>
+            <div class="accesorios">
+                <img src="./IMG/bag.PNG" alt="bag" width="100%">
+                <h2 style="color: black; font-weight: 400; text-transform: capitalize;"> Bags </h2>
+            </div>
+            <div class="accesorios">
+                <img src="./IMG/sticker.PNG" alt="sticker" width="100%">
+                <h2 style="color: black; font-weight: 400; text-transform: capitalize;"> Stickers </h2>
+            </div>
+        </article>
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                x.className += " responsive";}
+                else {
+                x.className = "topnav";
+                }
+            }
+            </script>
+
+        <footer>
+            <div class="iconos">
+
+                <a href= "mailto:info@kiddo.com.ar" target="_blank">
+                    <i class="fa-solid fa-envelope" style="font-size: 30px ;color: #e97e2d;"> </i>
+                </a>
+                <a href="https://www.google.com/maps/place/Ar%C3%A9valo+2882,+C1426DJD+CABA,+Argentina/@-34.572097,-58.431582,16z/data=!4m6!3m5!1s0x95bcb597d47937b1:0x18c75b26103f7929!8m2!3d-34.5720967!4d-58.4315815!16s%2Fg%2F11c29yy03x?hl=en-US&entry=ttu" target="_blank">
+                    <i class="fa-solid fa-location-dot" style="font-size: 30px ;color: #e97e2d;"> </i>
+                </a>
+                <a href="https://www.instagram.com/kiddo.arg/?hl=es" target="_blank">
+                    <i class="fa-brands fa-instagram" style="font-size: 30px ;color: #e97e2d;"> </i>
+                </a>
+                <a href= "https://open.spotify.com/user/31sqlsf5yehog4ygmlnnwrxe76xi" target="_blank">
+                    <i class="fa-brands fa-spotify" style="font-size: 30px ;color: #e97e2d;"> </i>   
+                </a>
+            </div>
+        </footer>
+
+
+    </body>
+</HTML>
