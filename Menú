@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <HEAD>
+        <title>Kiddo Website</title>
+        <link rel="stylesheet" href="Estilos.css">
+        <script src="https://kit.fontawesome.com/a48e4de325.js" crossorigin="anonymous"></script>    
+    </HEAD>
+    <body>
+        <nav>
+            <a href="./Index.html">
+                <img class="logo" src="./IMG/kiddo_logo.png" alt="Logo de Kiddo" style="width:120px;height:120px;">
+            </a>    
+            <div class="topnav" id="myTopnav">
+                <a href="./Eventos.html">Eventos</a>
+                <a href="./Ubicación.html">Ubicación</a>
+                <a href="./Merch.html">Merchandise</a>
+                <a href="./Menú.html"> Menú</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+            </div>  
+        </nav>
+
+        <div class="Titulo">
+            <h3> Menú Kiddo </h3>
+        </div>
+
+        <article CLASS="article2">
+            <section class="box">
+                <h1 style="font-size: 40px;"> Cheeseburguer </h1>
+                <img src="./IMG/CheseMenu.png" alt="chese" width="100%">
+                <p style="font-size: 16px; color: white;"> Carne, queso, ketchup, mayonesa, cebolla</p>
+                
+                <section class="Tipo">
+                    <div class="simple">
+                        <h2 style="font-size: 21px;"> Simple </h2>
+                        <div class="precio">
+                            <h2 style=" color: #e97e2d; font-style: italic;"> $1500 </h2>
+                        </div> 
+                    </div>
+                    <div class="doble">
+                        <h2 style="font-size: 21px;"> Doble </h2>  
+                        <div class="precio">
+                            <h2 style=" color: #e97e2d; font-style: italic;"> $1900 </h2>
+                        </div>
+                    </div>
+                </section>
+                     
+            </section>
+
+            <section class="box">
+                <h1 style="font-size: 40px;"> PARK </h1>
+                <img src="./IMG/ParkMenu.png" alt="park" width="100%">
+                <p style="font-size: 16px; color: white;"> Carne, queso, lechuga, tomate, cebolla, aderezo kiddo</p>
+                
+                <section class="Tipo">
+                    <div class="simple">
+                        <h2 style="font-size: 21px;"> Simple </h2>
+                        <div class="precio">
+                            <h2 style=" color: #e97e2d; font-style: italic;"> $1600 </h2>
+                        </div> 
+                    </div>
+                    <div class="doble">
+                        <h2 style="font-size: 21px;"> Doble </h2>  
+                        <div class="precio">
+                            <h2 style=" color: #e97e2d; font-style: italic;"> $2100 </h2>
+                        </div>
+                    </div>
+                </section>
+                     
+            </section>
+
+            <section class="box">
+                <h1 style="font-size: 40px;"> MELVIN </h1>
+                <img src="./IMG/MelvinMenu.png" alt="melvin" width="100%">
+                <p style="font-size: 16px; color: white;"> Carne, queso, panceta ahumada, cebolla crispy, aderezo kiddo</p>
+                
+                <section class="Tipo">
+                    <div class="simple">
+                        <h2 style="font-size: 21px;"> Simple </h2>
+                        <div class="precio">
+                            <h2 style=" color: #e97e2d; font-style: italic;"> $1800 </h2>
+                        </div> 
+                    </div>
+                    <div class="doble">
+                        <h2 style="font-size: 21px;"> Doble </h2>  
+                        <div class="precio">
+                            <h2 style=" color: #e97e2d; font-style: italic;"> $2100 </h2>
+                        </div>
+                    </div>
+                </section>
+                     
+            </section>
+            
+        </article>
+
+        <article class="article2">
+            <div class="contenedor">
+                <div class="guarni">
+                    <h1 style="color: #1F4982; font-weight: 600; font-size: 35px;"> PAPAS FRITAS </h1>
+                    <img src="./IMG/papas.PNG" alt="papas" width="70%">
+                    <div class="precio2">
+                        <h2 style=" color: #EBE7D6; font-style: italic;"> $700</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="contenedor">
+                <div class="guarni">
+                    <h1 style="color: #1F4982; font-weight: 600; font-size: 35px;"> nuggets </h1>
+                    <img class="nuggets" src="./IMG/nuggets.png" alt="nuggets" width="70%">
+                    <div class="precio2">
+                        <h2 style=" color: #EBE7D6; font-style: italic;"> $900</h2>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+
+        <article class="article2">
+            <div class="contenedor">
+                <div class="bebida">
+                    <h1 style="color: #e97e2d; font-weight: 100; font-size: 38px;"> Agua </h1>
+                    <img src="./IMG/agua.png" alt="Agua" width="80%">
+                    <div class="precio3">
+                        <h2 style=" color: #EBE7D6; font-style: italic;"> $500 </h2>
+                    </div>
+                </div>
+                <div class="bebida">
+                    <h1 style="color: #e97e2d; font-weight: 100; font-size: 38px;"> GASEOSA </h1>
+                    <img src="./IMG/pepsi.png" alt="Agua" width="80%">
+                    <div class="precio3">
+                        <h2 style=" color: #EBE7D6; font-style: italic;"> $600 </h2>
+                    </div>
+                </div>
+                <div class="bebida">
+                    <h1 style="color: #e97e2d; font-weight: 100; font-size: 38px;"> CERVEZA </h1>
+                    <img src="./IMG/budweiser_lata.png" alt="Agua" width="80%">
+                    <div class="precio3">
+                        <h2 style=" color: #EBE7D6; font-style: italic;"> $800 </h2>
+                    </div>
+                </div>
+            </div>
+
+        </article>
+
+
+        <footer>
+            <div class="iconos">
+
+                <a href= "mailto:info@kiddo.com.ar" target="_blank">
+                    <i class="fa-solid fa-envelope" style="font-size: 30px ;color: #e97e2d;"> </i>
+                </a>
+                <a href="https://www.google.com/maps/place/Ar%C3%A9valo+2882,+C1426DJD+CABA,+Argentina/@-34.572097,-58.431582,16z/data=!4m6!3m5!1s0x95bcb597d47937b1:0x18c75b26103f7929!8m2!3d-34.5720967!4d-58.4315815!16s%2Fg%2F11c29yy03x?hl=en-US&entry=ttu" target="_blank">
+                    <i class="fa-solid fa-location-dot" style="font-size: 30px ;color: #e97e2d;"> </i>
+                </a>
+                <a href="https://www.instagram.com/kiddo.arg/?hl=es" target="_blank">
+                    <i class="fa-brands fa-instagram" style="font-size: 30px ;color: #e97e2d;"> </i>
+                </a>
+                <a href= "https://open.spotify.com/user/31sqlsf5yehog4ygmlnnwrxe76xi" target="_blank">
+                    <i class="fa-brands fa-spotify" style="font-size: 30px ;color: #e97e2d;"> </i>   
+                </a>
+
+            </div>
+        </footer>
+    
+        <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+            x.className += " responsive";}
+            else {
+            x.className = "topnav";
+            }
+        }
+        </script>
+
+    </body>
+</html>
